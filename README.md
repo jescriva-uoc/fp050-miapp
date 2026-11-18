@@ -13,7 +13,7 @@ fp050-miapp/
     ├── deployment.yaml  # 2 réplicas con readinessProbe
     └── service.yaml     # LoadBalancer: reparte el tráfico entre réplicas
 ```
-Probar en local-v3
+Probar en local-v4
 ```bash
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
