@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def hola():
     # el hostname de un contenedor en Kubernetes es el nombre del pod
-    return f"Hola v5A desde el pod {socket.gethostname()}\n"
+    return f"Hola v66 desde el pod {socket.gethostname()}\n"
 
 @app.route("/health")
 def health():
