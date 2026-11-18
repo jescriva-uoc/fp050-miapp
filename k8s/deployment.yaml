@@ -4,7 +4,7 @@ metadata:
   name: miapp
   labels: { app: miapp }
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels: { app: miapp }
   template:
